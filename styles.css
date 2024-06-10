@@ -1,0 +1,188 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+.container {
+    Oportunidade 1
+    Oportunidade 2
+    Oportunidade 3
+
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: transparent;
+  color: #fff;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  text-align: center; /* Centraliza o texto */
+}
+
+.header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.nav {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  text-align: center; /* Centraliza os links */
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.section {
+  padding: 20px;
+  background-color: #000;
+  margin: 80px 0 20px;
+  border-radius: 5px;
+}
+
+.section h2 {
+  color: #4cd964;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #ff2d55;
+  color: #fff;
+  border: none;
+  border-radius: 25px; /* Botões com bordas arredondadas */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Adiciona uma transição suave ao passar o mouse */
+}
+
+.button:hover {
+  background-color: #ff3b5c; /* Cor do botão ao passar o mouse */
+}
+
+/* Estiliza os botões dentro do chatbox */
+.chat-message button {
+  margin: 5px; /* Espaçamento entre os botões */
+  padding: 8px 16px; /* Padding interno */
+  background-color: #4cd964; /* Cor de fundo dos botões */
+  color: #fff; /* Cor do texto dos botões */
+  border: none; /* Remove a borda */
+  border-radius: 25px; /* Bordas arredondadas */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Adiciona uma transição suave ao passar o mouse */
+}
+
+.chat-message button:hover {
+  background-color: #5ce079; /* Cor do botão ao passar o mouse */
+}
+
+.footer {
+  background-color: #ff2d55;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.chatbox {
+  position: fixed;
+  bottom: 20px;
+    Oportunidade 1
+    Oportunidade 2
+    Oportunidade 3
+
+  right: 20px;
+  width: 300px;
+  background-color: #000;
+  border: 1px solid #4cd964;
+  border-radius: 5px;
+  display: none;
+}
+
+.chat-header {
+  background-color: #4cd964;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-messages {
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.chat-message {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.chat-input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #4cd964;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+.chat-input button {
+  background-color: #ff2d55;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-input button:hover {
+  background-color: #ff3b5c;
+}
+
+/* Estiliza os depoimentos */
+.testimonial {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.testimonial p {
+  margin: 0;
+}
+
+.testimonial .author {
+  margin-top: 10px;
+  text-align: right;
+}

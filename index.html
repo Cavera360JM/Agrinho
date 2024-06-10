@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rural-Urbano</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>Rural-Urbano</h1>
+    </div>
+  </header>
+  <nav class="nav">
+    <div class="container">
+      <ul>
+        <li><a href="#about">Sobre Nós</a></li>
+        <li><a href="#oportunidades">Oportunidades</a></li>
+        <li><a href="#voluntario">Seja um Voluntário</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section id="about" class="section">
+    <h2>Sobre Nós</h2>
+    <p>Somos uma plataforma dedicada a facilitar a transição das pessoas do campo para oportunidades urbanas e fornecer apoio a pessoas com deficiência. Nossa missão é criar pontes entre comunidades rurais e urbanas, promovendo inclusão e desenvolvimento sustentável.</p>
+  </section>
+  <section id="oportunidades" class="section">
+    <h2>Oportunidades</h2>
+    <p>Explore oportunidades de emprego, programas de treinamento e outras iniciativas que visam ajudar pessoas do campo e com deficiência a prosperarem nas cidades.</p>
+    <button onclick="showOpportunities()">Explorar Oportunidades</button>
+    <div id="opportunitiesDescription" style="display: none;">
+      <p>Aqui estão algumas das oportunidades disponíveis:</p>
+      <ul>
+        <li>Oportunidade 1</li>
+        <li>Oportunidade 2</li>
+        <li>Oportunidade 3</li>
+      </ul>
+    </div>
+  </section>
+  <section id="voluntario" class="section">
+    <h2>Seja um Voluntário</h2>
+    <p>Junte-se a nós como voluntário e faça a diferença na vida das pessoas do campo e com deficiência. Se você está interessado em contribuir para nossa causa, preencha o formulário abaixo e entraremos em contato em breve!</p>
+    <button>Cadastro de Voluntário</button>
+  </section>
+  <section id="testimonials" class="section">
+    <h2>Depoimentos</h2>
+    <div class="testimonial">
+      <p>"Esta plataforma mudou minha vida! Graças ao Rural-Urbano, consegui encontrar um emprego na cidade e agora estou prosperando."</p>
+      <p class="author">- João, ex-morador rural</p>
+    </div>
+    <div class="testimonial">
+      <p>"Sou voluntária há dois anos e cada dia é uma experiência gratificante. Recomendo a todos que queiram fazer a diferença."</p>
+      <p class="author">- Maria, voluntária</p>
+    </div>
+  </section>
+  <footer id="contato" class="footer">
+    <h2>Contato</h2>
+    <p>Entre em contato conosco para mais informações, perguntas ou sugestões...</p>
+    <button onclick="openChat()">Iniciar Chat</button>
+  </footer>
+  <div id="chatbox" class="chatbox">
+    <div class="chat-header">
+      <h3>Chat de Suporte</h3>
+      <button onclick="closeChat()">Fechar</button>
+    </div>
+    <div class="chat-messages">
+      <!-- Mensagens do chat aparecerão aqui -->
+      <div class="chat-message">
+        <p><strong>ChatBox:</strong> Olá! Tudo bem? Eu sou a ChatBox do Voluntáriado. Estou aqui para te ajudar. Como posso te ajudar hoje?</p>
+        <p>Escolha uma opção abaixo:</p>
+        <ul>
+          <li><button onclick="selectOption('Emprego')">Encontrar Emprego</button></li>
+          <li><button onclick="selectOption('Capacitação')">Programas de Capacitação</button></li>
+          <li><button onclick="selectOption('Informação')">Mais Informações</button></li>
+        </ul>
+      </div>
+    </div>
+    <div class="chat-input">
+      <input type="text" placeholder="Digite sua mensagem...">
+      <button onclick="sendMessage()">Enviar</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
